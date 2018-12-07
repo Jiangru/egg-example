@@ -1,0 +1,21 @@
+.view {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.news-view {
+  display: inline-block;
+}
+.item {
+  background: #666666;
+}
+
+.item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.item:nth-child(even) a {
+  background: #dddddd;
+  color: #333333;
+}
