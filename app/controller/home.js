@@ -5,6 +5,8 @@ class HomeController extends Controller {
     this.ctx.body = 'Hello World';
   }
   async page () {
+    // 判断运行环境
+    console.log(this.app.config.env)
     this.ctx.body = '<div style="color: red">你好！</div>'
   }
 }
